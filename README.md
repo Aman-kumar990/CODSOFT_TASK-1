@@ -1,18 +1,31 @@
+# **Task 1: Number Game**
 
-A Java console-based number guessing game where the system generates a random number between 1 and 100. The user guesses the number, and the program gives feedback such as "Too High" or "Too Low" until the correct number is guessed or the attempt limit is reached.
+## **Description**
 
-#### Features
+The Number Game is a Java console-based application where the computer randomly generates a number between 1 and 100, and the user has to guess it within a limited number of attempts. After each guess, the program compares the user's input with the generated number and gives feedback such as "Too High" or "Too Low". The game continues until the user guesses the correct number or runs out of attempts.
+
+This project also includes multiple rounds and score tracking, making it more interactive and useful for practicing basic Java programming concepts.
+
+## **Features**
 
 - Generates a random number between 1 and 100
 - Accepts user guesses
-- Gives feedback for too high or too low guesses
+- Gives feedback for correct, too high, or too low guesses
 - Limits the number of attempts
-- Supports multiple rounds
-- Displays the user's score
+- Allows multiple rounds
+- Displays score based on rounds played and rounds won
+- Handles invalid input
 
-#### Run Command
+## **Technologies Used**
+
+- Java
+- Object-Oriented Programming
+- Console-based User Interface
+
+## **How to Run**
 
 ```bash
 javac NumberGame.java
 java NumberGame
 ```
+
